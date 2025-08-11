@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/icon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+    <title>Currículo</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Currículo</h1>
+    </div>
+    <div class="pfp">
+      <img
+        class="pfp-img"
+        onclick="fullSizeImage(this)"
+        src="assets/pfp.jpg"
+        alt="Foto de perfil"
+        id="pfp"
+      />
+      <img
+        class="pfp-img"
+        onclick="fullSizeImage(this)"
+        src="assets/icon.png"
+        alt="Foto de perfil"
+        id="icon"
+        style="display: none"
+      />
+    </div>
+    <div class="container">
+      <div class="column-item">
+        <h2 class="title">Dados Pessoais</h2>
+        <p class="paragraph">Nome: Samuel De Lorenzi Ribeiro</p>
+        <p class="paragraph">Email: samueldelorenziribeiro@gmail.com</p>
+        <p class="paragraph">
+          LinkedIn:
+          <a
+            href="https://linkedin.com/in/samueldelorenzi"
+            rel="noopener noreferrer"
+            target="_blank"
+            >samueldelorenzi</a
+          >
+        </p>
+        <p class="paragraph">
+          GitHub:
+          <a
+            href="https://github.com/samueldelorenzi"
+            rel="noopener noreferrer"
+            target="_blank"
+            >samueldelorenzi</a
+          >
+        </p>
+      </div>
+      <div class="column-item">
+        <h2 class="title">Sobre mim</h2>
+        <p class="paragraph">
+          Sou um Programador Web, com experiência trabalhando com sistemas de
+          gerenciamento de licitação, criação de sites personalizados além de
+          scripts de automação.
+        </p>
+      </div>
+      <div class="column-item">
+        <h2 class="title">Educação</h2>
+        <p class="paragraph">
+          Sou um Programador Web, com experiência trabalhando com sistemas de
+          gerenciamento de licitação, criação de sites personalizados além de
+          scripts de automação.
+        </p>
+      </div>
+      <div class="column-item">
+        <h2 class="title">Tecnologias</h2>
+        <ul>
+          <li>Linguagens: PHP, JavaScript, VB.NET, C#, Python</li>
+          <li>Frameworks: Laravel, Symfony, React, Node, Next</li>
+          <li>Bancos de dados: SQLServer, PostgreSQL, MySQL</li>
+        </ul>
+      </div>
+      <footer class="footer">
+        <p id="footer-txt">Desenvolvido por Samuel De Lorenzi Ribeiro</p>
+      </footer>
+    </div>
+  </body>
+</html>
